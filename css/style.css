@@ -1,0 +1,127 @@
+/* common css code */
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+.container {
+
+    max-width: 1000px;
+    margin: 30px auto;
+    background-color: #f1f2f6;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.profile-pic img {
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+}
+
+/* about me section css */
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-me .name {
+    text-align: right;
+}
+
+.about-me .name h1 {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.about-me .name h3 {
+    margin-top: 4px;
+    color: gray;
+}
+
+/* description */
+.description {
+    margin-top: 50px;
+}
+.description h2 {
+    font-family: "Anta", sans-serif;
+    text-transform: uppercase;
+}
+.description p {
+    line-height: 26px;
+    margin-top: 12px;
+    text-align: justify;
+}
+
+.description ul {
+   margin-top: 24px;
+   line-height: 25px;
+   padding-left: 30px;
+}
+.description ul li {
+    line-height: 30px;
+}
+
+/* Education  */
+.education {
+    margin-top: 30px;
+}
+.education h2 {
+    font-family: "Anta", sans-serif;
+    margin-bottom: 16px;
+}
+.all-degree {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+.education .single-degree {
+    background-color: #dfe6e9;
+    /* color: white;     */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 4px 0 black;
+}
+.education .single-degree h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.education .single-degree h4 {
+    font-family: "Anta", sans-serif;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    font-size: 18px;
+}
+.education .single-degree h5 {
+    margin-bottom: 16px;
+}
+
+
+/* social media */
+.social-media {
+    margin-top: 50px;
+}
+.social-media ul {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+.social-media ul li {
+    list-style: none;
+}
+.social-media ul li a {
+    font-size: 20px;
+    padding: 10px;
+    background: #30336b;
+    border-radius: 4px;
+    color: white;
+}
